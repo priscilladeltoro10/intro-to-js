@@ -34,3 +34,9 @@ var mod = b % a;
 console.log(mod);
 var mod = b % c;
 console.log(mod);
+
+var e = '20'; //not a number; but is a string
+console.log(typeof e); //returns the type of variable e
+
+console.log(a === e); //strict comparison (string variable made it false)
+console.log(a == e);//loose comparison (number value made it true)
